@@ -1,5 +1,7 @@
 # BlackGit Skills
 
+**English** | [**简体中文**](README-zh.md)
+
 Agent skills for [BlackGit](https://github.com/zhuzhonghua/blackgit) — the sparse/promisor git client for monorepos: partial clone (`blob:none`) + sparse-checkout, materializing **only the files you follow**. No LFS, no full history of a multi-GB repo.
 
 The skill lives in [`skills/blackgit/`](skills/blackgit/SKILL.md) (SKILL.md + bundled `blackgitcli.py` + command reference). Plugin manifests are provided for every major agent harness.
