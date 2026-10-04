@@ -1,0 +1,20 @@
+{
+  "name": "blackgit-skills",
+  "description": "Agent skills for BlackGit, the sparse/promisor git client for monorepos",
+  "owner": {
+    "name": "zhonghua",
+    "url": "https://github.com/zhuzhonghua"
+  },
+  "plugins": [
+    {
+      "name": "blackgit",
+      "description": "Partial-clone + sparse-checkout git client skills: follow cared files, fast-forward update, list trees without materializing, file locks",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "zhonghua",
+        "url": "https://github.com/zhuzhonghua"
+      }
+    }
+  ]
+}

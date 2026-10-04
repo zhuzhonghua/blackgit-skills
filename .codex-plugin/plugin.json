@@ -1,0 +1,48 @@
+{
+  "name": "blackgit",
+  "version": "0.1.0",
+  "description": "Agent skills for BlackGit, the sparse/promisor git client for monorepos: follow cared files, fast-forward update, tree listing, file locks",
+  "author": {
+    "name": "zhonghua",
+    "url": "https://github.com/zhuzhonghua"
+  },
+  "homepage": "https://github.com/zhuzhonghua/blackgit-skills",
+  "repository": "https://github.com/zhuzhonghua/blackgit-skills",
+  "license": "MIT",
+  "keywords": [
+    "blackgit",
+    "monorepo",
+    "sparse-checkout",
+    "partial-clone",
+    "promisor",
+    "git",
+    "file-lock",
+    "game-development"
+  ],
+  "skills": "./skills/",
+  "hooks": {},
+  "interface": {
+    "displayName": "BlackGit",
+    "shortDescription": "Sparse/promisor git client for monorepos",
+    "longDescription": "Use BlackGit skills to clone huge monorepos (multi-GB binaries, game assets) with partial clone, materialize only the files you follow, fast-forward updates without downloading blobs, list remote trees without checking out, and lock files against concurrent pushes.",
+    "developerName": "zhonghua",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/zhuzhonghua/blackgit-skills",
+    "privacyPolicyURL": "https://github.com/zhuzhonghua/blackgit-skills",
+    "termsOfServiceURL": "https://github.com/zhuzhonghua/blackgit-skills",
+    "logo": "",
+    "logoDark": "",
+    "defaultPrompt": [
+      "Clone this monorepo and follow only the files under src/engine",
+      "List the assets directory on origin/main without checking it out",
+      "Fast-forward this blackgit repo to the latest commits",
+      "Lock this file so nobody else can push changes to it"
+    ],
+    "brandColor": "#0F0F0F",
+    "screenshots": []
+  }
+}

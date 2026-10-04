@@ -1,0 +1,24 @@
+{
+  "name": "blackgit",
+  "displayName": "BlackGit",
+  "description": "Agent skills for BlackGit, the sparse/promisor git client for monorepos: follow cared files, fast-forward update, tree listing, file locks",
+  "version": "0.1.0",
+  "author": {
+    "name": "zhonghua",
+    "url": "https://github.com/zhuzhonghua"
+  },
+  "homepage": "https://github.com/zhuzhonghua/blackgit-skills",
+  "repository": "https://github.com/zhuzhonghua/blackgit-skills",
+  "license": "MIT",
+  "keywords": [
+    "blackgit",
+    "monorepo",
+    "sparse-checkout",
+    "partial-clone",
+    "promisor",
+    "git",
+    "file-lock",
+    "game-development"
+  ],
+  "skills": "./skills/"
+}

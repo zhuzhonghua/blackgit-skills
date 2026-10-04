@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Thin wrapper for the bundled blackgit CLI.
+# Usage: bash scripts/blackgit <command> [<args>...]
+# Prefer running through the interpreter (python3 scripts/blackgitcli.py)
+# over bare-path execution; some harness plugin packagers strip exec bits.
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec python3 "$DIR/blackgitcli.py" "$@"
