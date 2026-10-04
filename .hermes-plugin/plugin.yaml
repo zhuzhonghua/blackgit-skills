@@ -1,0 +1,4 @@
+name: blackgit
+version: 0.1.0
+description: BlackGit sparse/promisor git client skills for Hermes Agent
+author: zhonghua

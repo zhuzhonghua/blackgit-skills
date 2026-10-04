@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "blackgit",
+  "displayName": "BlackGit",
+  "version": "0.1.0",
+  "description": "Partial-clone + sparse-checkout git client skills for Muse: follow cared files, fast-forward update, tree listing, file locks",
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
+  },
+  "capabilities": {
+    "skills": [
+      {
+        "id": "blackgit",
+        "path": "skills/blackgit/SKILL.md"
+      }
+    ],
+    "commands": [],
+    "hooks": [],
+    "mcpServers": [],
+    "reminders": []
+  }
+}

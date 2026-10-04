@@ -1,0 +1,6 @@
+{
+  "name": "blackgit",
+  "description": "Agent skills for BlackGit, the sparse/promisor git client for monorepos: follow cared files, fast-forward update, tree listing, file locks",
+  "version": "0.1.0",
+  "contextFileName": "GEMINI.md"
+}
